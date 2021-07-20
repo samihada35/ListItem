@@ -13,6 +13,7 @@ export default function Form({ addHandler }) {
         style={headerStyles.input}
         onChangeText={onChange}
         placeholder="впишите задачу"
+        clearButtonMode="always"
       ></TextInput>
       <Button title={"Добавить задачу"} onPress={() => addHandler(text)} />
     </View>
